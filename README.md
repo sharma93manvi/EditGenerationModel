@@ -39,7 +39,7 @@ EditGenerationModel/
 
 1. Clone the repository:
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/sharma93manvi/EditGenerationModel.git
 cd EditGenerationModel
 ```
 
