@@ -1,10 +1,10 @@
-# Edit Generation Model (EGM)
+# Edit-Generation-Model (EGM)
 
 A deep learning-based image editing tool that learns user editing preferences from raw/edited image pairs and automatically applies those preferences to new images.
 
 ## Overview
 
-EditGenerationModel (EGM) uses a Pix2Pix (conditional GAN) architecture to learn how you edit images. By training on pairs of raw and edited images, the model learns your editing style and can automatically apply it to new raw images.
+Edit-Generation-Model (EGM) uses a Pix2Pix (conditional GAN) architecture to learn how you edit images. By training on pairs of raw and edited images, the model learns your editing style and can automatically apply it to new raw images.
 
 ## Features
 
@@ -17,7 +17,7 @@ EditGenerationModel (EGM) uses a Pix2Pix (conditional GAN) architecture to learn
 ## Project Structure
 
 ```
-EditGenerationModel/
+Edit-Generation-Model/
 ├── train_data/
 │   ├── Raw/          # Raw training images
 │   └── Edited/       # User-edited training images
@@ -39,8 +39,8 @@ EditGenerationModel/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sharma93manvi/EditGenerationModel.git
-cd EditGenerationModel
+git clone https://github.com/sharma93manvi/Edit-Generation-Model.git
+cd Edit-Generation-Model
 ```
 
 2. Install dependencies:

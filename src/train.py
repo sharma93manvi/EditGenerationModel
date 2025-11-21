@@ -124,7 +124,7 @@ def save_checkpoint(generator, discriminator, gen_optimizer, disc_optimizer,
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Train EditGenerationModel (EGM) - Pix2Pix model for image editing')
+    parser = argparse.ArgumentParser(description='Train Edit-Generation-Model (EGM) - Pix2Pix model for image editing')
     parser.add_argument('--raw_dir', type=str, default='train_data/Raw',
                        help='Directory containing raw training images')
     parser.add_argument('--edited_dir', type=str, default='train_data/Edited',
